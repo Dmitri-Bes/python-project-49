@@ -1,4 +1,4 @@
-import random 
+import random
 
 
 num = random.randint(1, 100)
@@ -15,7 +15,7 @@ def truth():
     else:
         right_answer = 'no'
         return right_answer
-       
+
 
 right_answer = truth()
 text = f" is wrong answer ;(. Correct answer was '{right_answer}'.\nLet's try again, "

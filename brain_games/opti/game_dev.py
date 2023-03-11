@@ -25,7 +25,7 @@ def log():
             print('Correct!')
             result += 1
             importlib.reload(named)
-            continue        
+            continue
         else:
-            print(f"'{answer}'{named.text}{name}!")
             break
+    print(f"'{answer}'{named.text}{name}!")

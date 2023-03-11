@@ -1,4 +1,4 @@
-import random 
+import random
 
 
 num1 = str(random.randint(1, 100))
