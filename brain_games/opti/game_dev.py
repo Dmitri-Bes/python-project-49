@@ -1,6 +1,6 @@
 import prompt
 import importlib
-
+import sys
 
 named = ''
 
@@ -18,7 +18,7 @@ def log():
     while result <= 3:
         if result == 3:
             print(f'Congratulations, {name}!')
-            break
+            sys.exit()
         print(f'Question: {named.example}')
         answer = prompt.string('Your answer: ')
         if named.right_answer == answer:
@@ -27,5 +27,6 @@ def log():
             importlib.reload(named)
             continue
         else:
-            break
-    print(f"'{answer}'{named.text}{name}!")
+            print(f"'{answer}'{named.text}{name}!")
+            sys.exit()
+
