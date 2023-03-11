@@ -27,6 +27,4 @@ def log():
             importlib.reload(named)
             continue
         else:
-            print(f"'{answer}'{named.text}{name}!")
-            sys.exit()
-
+            sys.exit(f"'{answer}'{named.text}{name}!")
