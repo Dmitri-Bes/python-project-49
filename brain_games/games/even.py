@@ -4,7 +4,7 @@ import random
 num = random.randint(1, 100)
 
 
-rules_of_the_game = 'Answer "yes" if the number is even, otherwise answer "no".'
+rules_game = 'Answer "yes" if the number is even, otherwise answer "no".'
 example = num
 
 
@@ -18,4 +18,5 @@ def truth():
 
 
 right_answer = truth()
-text = f" is wrong answer ;(. Correct answer was '{right_answer}'.\nLet's try again, "
+text1 = f" is wrong answer ;(. Correct answer was '{right_answer}'."
+text2 = "Let's try again, "

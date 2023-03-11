@@ -13,7 +13,8 @@ def prost(num):
         return 'no'
 
 
-rules_of_the_game = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+rules_game = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 example = random.randint(1, 100)
 right_answer = prost(example)
-text = f" is wrong answer ;(. Correct answer was '{right_answer}'.\nLet's try again, "
+text1 = f" is wrong answer ;(. Correct answer was '{right_answer}'."
+text2 = "Let's try again, "

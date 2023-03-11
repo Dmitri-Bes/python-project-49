@@ -59,7 +59,8 @@ def truth():
 truth()
 
 
-rules_of_the_game = 'What number is missing in the progression?'
+rules_game = 'What number is missing in the progression?'
 example = xmpl
 right_answer = tru
-text = f" is wrong answer ;(. Correct answer was '{right_answer}'.\nLet's try again, "
+text1 = f" is wrong answer ;(. Correct answer was '{right_answer}'."
+text2 = "Let's try again, "
